@@ -37,3 +37,4 @@ func transition_to(next_state: String)->void:		#states call this when states nee
 	state = next									#set new state
 	state.enter()									#call entering state
 	current_state = next_state						#if later need reference which is current state
+

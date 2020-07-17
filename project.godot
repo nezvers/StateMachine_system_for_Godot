@@ -44,7 +44,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Player/States/PlayerWalk.gd"
 }, {
-"base": "Resource",
+"base": "Reference",
 "class": "State",
 "language": "GDScript",
 "path": "res://BaseClases/State.gd"

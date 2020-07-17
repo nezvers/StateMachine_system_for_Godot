@@ -1,4 +1,3 @@
-extends Resource
 class_name State
 
 var name:String			#Used when adding state into StateMachine to identify state
