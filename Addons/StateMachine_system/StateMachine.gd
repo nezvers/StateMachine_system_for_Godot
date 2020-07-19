@@ -27,7 +27,7 @@ func _physics_process(delta:float)->void:
 func _process(delta:float)->void:
 	state.process(delta)
 
-func transition_to(next_state: String)->void:		#states call this when states need to be changed
+func transition_to(next_state: String, msg:Dictionary = {})->void:		#states call this when states need to be changed
 	if !states.has(next_state):						#check if state is in dictionary
 		print("No state: ", next_state)
 		return
@@ -35,6 +35,6 @@ func transition_to(next_state: String)->void:		#states call this when states nee
 	var next = states[next_state]					#reference the next state
 	state.exit()									#Allow old state to take care on it's exit method
 	state = next									#set new state
-	state.enter()									#call entering state
+	state.enter(msg)									#call entering state
 	current_state = next_state						#if later need reference which is current state
 
