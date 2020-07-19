@@ -47,12 +47,12 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "State",
 "language": "GDScript",
-"path": "res://BaseClases/State.gd"
+"path": "res://Addons/StateMachine_system/State.gd"
 }, {
 "base": "Node",
 "class": "StateMachine",
 "language": "GDScript",
-"path": "res://BaseClases/StateMachine.gd"
+"path": "res://Addons/StateMachine_system/StateMachine.gd"
 } ]
 _global_script_class_icons={
 "Actor": "",
