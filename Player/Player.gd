@@ -3,9 +3,6 @@ class_name Player
 
 onready var anim:AnimationPlayer = $AnimationPlayer
 
-enum {IDLE, WALK, JUMP}
-var state: = IDLE
-var prev_state: = state
 var scaler: = Vector2(1.0, 1.0)
 
 var velocity_previous: = Vector2.ZERO
