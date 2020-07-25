@@ -16,8 +16,8 @@ func _ready()->void:				#Set the first state
 		var inst = st.new(self)		#Create new instance of State
 		var n:String = inst.name	#All States should set their names to create their keys for Dictionary
 		states[n] = inst			#Put the state into Dictionary and use their name as key
-    
-    #Base class doesn't implement starting state, should be implemented by inherited script (Example PlayerStateMachine)
+	
+	#Base class doesn't implement starting state, should be implemented by inherited script (Example PlayerStateMachine)
 
 
 func _unhandled_input(event: InputEvent)->void:		#because it's defined in script the engine will call it
