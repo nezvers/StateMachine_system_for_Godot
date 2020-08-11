@@ -16,3 +16,5 @@ Project is also simple use case for platformer (Idle, Walk, Jump)
 func _init(_sm).(_sm)->void:
 	name = "Idle"
 ```
+## Walkthrough
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dpf2f31zKic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
