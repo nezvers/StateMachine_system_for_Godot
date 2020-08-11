@@ -7,8 +7,9 @@ Project is also simple use case for platformer (Idle, Walk, Jump)
 ## Usage
 * Create StateMachine inherited script for different types of use cases (example - PlayerStateMachine);
 * Create State inherited state scripts (example - PlayerState -> PlayerIdle);
-* Use virtual functions inheritted from State (_unhandled_input, _physics_process, _process, state_check);
+* Use virtual functions inheritted from State (unhandled_input, physics_process, process, state_check);
 * Add State scripts into StateMachine exported script_array. PlayerStateMachine implements default state choice, you can change it to script_array[0] instead of String key.
+* For getting references to nodes or get_tree() use sm (state machine) - sm.yield(get_tree().create_timer(1.0), "timeout")
 
 ## IMPORTANT
 * Each new state needs to implement:
