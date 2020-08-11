@@ -17,4 +17,11 @@ func _init(_sm).(_sm)->void:
 	name = "Idle"
 ```
 ## Walkthrough
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dpf2f31zKic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div align="center">
+      <a href="https://www.youtube.com/watch?v=Dpf2f31zKic">
+     <img 
+      src="https://img.youtube.com/vi/Dpf2f31zKic/0.jpg" 
+      alt="State machine walkthrough" 
+      style="width:100%;">
+      </a>
+    </div>
